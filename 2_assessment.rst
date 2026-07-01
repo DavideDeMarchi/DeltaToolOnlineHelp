@@ -37,6 +37,10 @@ To start analysing the content of your dataset and to filter/select the input st
 Run an experiment
 -----------------
 
+.. figure:: graphics/AssessmentRun.png
+
+   Input parameters for running an experiment
+
 
 Analyse experiment results
 --------------------------
@@ -45,10 +49,18 @@ Analyse experiment results
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
+.. figure:: graphics/AssessmentNumeric.png
+
+   Numerical results of an assessment experiment
+   
 
 Charts outputs
 ^^^^^^^^^^^^^^
 
+.. figure:: graphics/AssessmentCharts.png
 
-Compare two runs
-----------------
+   Graphical results of an assessment experiment
+
+
+Compare two experiments
+-----------------------

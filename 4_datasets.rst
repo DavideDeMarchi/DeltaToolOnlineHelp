@@ -7,6 +7,7 @@ Dataset summary and selection
 
 .. _dataset-summary:
 
+
 Summary panel
 -------------
 
