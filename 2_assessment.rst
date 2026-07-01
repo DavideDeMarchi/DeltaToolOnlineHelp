@@ -9,7 +9,7 @@ Load your dataset
 -----------------
 
 .. figure:: graphics/LoadDatasetDT.png
-   :class: with-border
+   :class: sd-border-2 sd-border-dark sd-rounded-2
 
    Load dataset using the legacy Delta Tool format
 
