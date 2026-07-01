@@ -6,7 +6,8 @@
 Delta Tool Online documentation
 ===============================
 
-Delta Tool Online provides a graphical user interface to the python libraries `Delta Tool Assessment<https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_ and `Delta Tool Forecasting<https://code.europa.eu/jrcairqualitymodelling/deltatool-forecast>`, released as open-source on the European Commission platform `https://code.europa.eu/>`_
+Delta Tool Online provides a graphical user interface to the python libraries `Delta Tool Assessment <https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_ and `Delta Tool Forecasting <https://code.europa.eu/jrcairqualitymodelling/deltatool-forecast>`_, released as open-source on the European Commission platform `code.europa.eu <https://code.europa.eu/>`_
+
 
 Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
@@ -16,4 +17,8 @@ documentation for details.
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   
+   1_mainpage
+   2_assessment
+   3_forecasting
 
