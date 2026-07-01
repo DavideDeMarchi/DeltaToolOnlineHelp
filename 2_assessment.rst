@@ -60,5 +60,13 @@ Charts outputs
    Graphical results of an assessment experiment
 
 
+Map output
+^^^^^^^^^^
+
+.. figure:: graphics/AssessmentMap.png
+
+   Map visualization of output indicators per station
+   
+
 Compare two experiments
 -----------------------
