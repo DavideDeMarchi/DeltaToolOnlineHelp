@@ -9,16 +9,19 @@ Load your dataset
 -----------------
 
 .. figure:: graphics/LoadDatasetDT.png
+   :class: with-border
 
    Load dataset using the legacy Delta Tool format
 
 
 .. figure:: graphics/LoadDatasetMQOR.png
+   :class: with-border
 
    Load dataset using the MQOR format
 
 
 .. figure:: graphics/ConsistencyChecks.png
+    
 
    Consistency checks on the uploaded dataset
    

@@ -1,5 +1,5 @@
-Dataset info and interaction
-============================
+Dataset summary and selection
+=============================
 
 .. toctree::
    :maxdepth: 3
@@ -10,8 +10,8 @@ Summary panel
 -------------
 
 
-Buttons toolbar
----------------
+Stations toolbar
+----------------
 
 
 Stations listing
