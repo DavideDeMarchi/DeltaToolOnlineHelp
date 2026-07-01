@@ -5,6 +5,7 @@ Dataset summary and selection
    :maxdepth: 3
    :local:
 
+.. _dataset-summary:
 
 Summary panel
 -------------

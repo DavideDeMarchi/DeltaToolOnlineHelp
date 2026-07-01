@@ -31,6 +31,9 @@ Load your dataset
    Display of the uploaded dataset
    
 
+To start analysing the content of your dataset and to filter/select the input stations for your expering, please see :ref:`dataset-summary`.
+
+
 Run an experiment
 -----------------
 
