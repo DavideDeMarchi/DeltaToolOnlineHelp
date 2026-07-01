@@ -14,7 +14,6 @@ Load your dataset
 
 
 .. figure:: graphics/LoadDatasetMQOR.png
-   :class: with-custom-border
 
    Load dataset using the MQOR format
 
@@ -37,7 +36,6 @@ Run an experiment
 -----------------
 
 .. figure:: graphics/AssessmentRun.png
-   :class: with-custom-border
 
    Input parameters for running an experiment
 
