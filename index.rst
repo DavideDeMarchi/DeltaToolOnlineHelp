@@ -18,7 +18,7 @@ The tool enables to upload users own datasets following the legacy Delta Tool fo
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
    
    1_mainpage

@@ -1,8 +1,8 @@
-Summary info on your dataset
+Dataset info and interaction
 ============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :local:
 
 

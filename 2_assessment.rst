@@ -2,12 +2,31 @@ Assessment
 ==========
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :local:
    
 Load your dataset
 -----------------
 
+.. figure:: graphics/LoadDatasetDT.png
+
+   Load dataset using the legacy Delta Tool format
+
+
+.. figure:: graphics/LoadDatasetMQOR.png
+
+   Load dataset using the MQOR format
+
+
+.. figure:: graphics/ConsistencyChecks.png
+
+   Consistency checks on the uploaded dataset
+   
+
+.. figure:: graphics/DatasetDisplay.png
+
+   Display of the uploaded dataset
+   
 
 Run an experiment
 -----------------
