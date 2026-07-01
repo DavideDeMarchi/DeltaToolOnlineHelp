@@ -1,5 +1,5 @@
 Forecasting
------------
+===========
 
 .. toctree::
    :maxdepth: 2

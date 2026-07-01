@@ -1,5 +1,5 @@
 Main page
----------
+=========
 
 .. toctree::
    :maxdepth: 2
@@ -7,7 +7,7 @@ Main page
 
 
 Start page
-^^^^^^^^^^
+----------
 
 .. figure:: graphics/mainpage.png
 

@@ -10,7 +10,7 @@ Delta Tool Online provides a graphical user interface to the python libraries `D
 
 Delta Tool Online is available at `this URL <https://jeodpp.jrc.ec.europa.eu/eu/vaas/voila/render/fairmode/fairmode/DeltaTool.ipynb>`_, which can be accessed by providing EU-login account credentials.
 
-The tool enables to upload users own datasets following the legacy Delta Tool format (startup.ini plus folder of observation and model CSV files) or the MQOR format (attributes and short term CSV, as documented `here <https://code.europa.eu/jrcairqualitymodelling/mqor>`_. Once loaded, stations data can be used for running experiments and calculate indicators and charts according to the Air Quality Directive.
+The tool enables to upload users own datasets following the legacy Delta Tool format (startup.ini plus folder of observation and model CSV files) or the MQOR format (attributes and short term CSV, as documented `here <https://code.europa.eu/jrcairqualitymodelling/mqor>`_). Once loaded, stations data can be used for running experiments and calculate indicators and charts according to the Air Quality Directive.
 
 .. note::
 
@@ -24,4 +24,5 @@ The tool enables to upload users own datasets following the legacy Delta Tool fo
    1_mainpage
    2_assessment
    3_forecasting
+   4_datasets
 

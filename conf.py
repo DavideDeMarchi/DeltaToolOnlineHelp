@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Delta Tool Online'
-copyright = '2026, Davide De Marchi & Enrico Pisoni'
-author = 'Davide De Marchi & Enrico Pisoni'
+copyright = '2026, European Union'
+author = 'Davide De Marchi, Enrico Pisoni'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
