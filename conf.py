@@ -69,4 +69,4 @@ html_theme_options = {
     'logo_only': True,
 }
 
-html_logo = 'graphics/LogoTransparent.png'
+html_logo = 'graphics/LogoBordato.png'
