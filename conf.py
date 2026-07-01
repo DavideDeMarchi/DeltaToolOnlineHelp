@@ -41,6 +41,7 @@ master_doc = 'index'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_static_path = ['_static']
+html_css_files = ['custom.css']
 
 
 # The name of the Pygments (syntax highlighting) style to use.

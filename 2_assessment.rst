@@ -9,13 +9,12 @@ Load your dataset
 -----------------
 
 .. figure:: graphics/LoadDatasetDT.png
-   :class: sd-border-2 sd-border-dark sd-rounded-2
 
    Load dataset using the legacy Delta Tool format
 
 
 .. figure:: graphics/LoadDatasetMQOR.png
-   :class: with-border
+   :class: with-custom-border
 
    Load dataset using the MQOR format
 
@@ -38,6 +37,7 @@ Run an experiment
 -----------------
 
 .. figure:: graphics/AssessmentRun.png
+   :class: with-custom-border
 
    Input parameters for running an experiment
 
