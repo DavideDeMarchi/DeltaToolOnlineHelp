@@ -27,6 +27,7 @@ extensions = ['sphinx.ext.autodoc',
               #'nbsphinx',
               #'sphinxcontrib.bibtex',
               'myst_parser',
+              'sphinx.ext.mathjax',
 ]
 
 
@@ -37,6 +38,7 @@ source_suffix = ['.rst', '.md']
 
 master_doc = 'index'
 
+myst_enable_extensions = ["dollarmath", "amsmath"]
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
