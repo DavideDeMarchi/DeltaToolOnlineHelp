@@ -1,5 +1,5 @@
-Dataset summary and selection
-=============================
+Dataset summary, stations filtering and selection
+=================================================
 
 .. toctree::
    :maxdepth: 3

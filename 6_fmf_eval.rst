@@ -1,11 +1,16 @@
 Forecasting computation details
 ===============================
 
+.. _fmf_eval:
+
+This part of the user manual describes in detail the underlining **fmf_eval** library (FAIRMODE Forecast-Evaluation Tool, available as open source at `fmm_assess <https://code.europa.eu/jrcairqualitymodelling/deltatool-forecast>`), that is called by the Delta Tool Online application for calculations and outputs generation.
+
+
 .. toctree::
    :maxdepth: 3
 
+   fmf_eval/TECH_SPEC.md
    fmf_eval/CONVENTIONS.md
    fmf_eval/INDICATORS.md
    fmf_eval/PLOTS.md
    fmf_eval/SAMPLE_DATA.md
-   fmf_eval/TECH_SPEC.md
