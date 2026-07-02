@@ -1,6 +1,13 @@
 Assessment
 ==========
 
+Users can upload a single dataset into the tool server storage. Once a dataset is loaded, they can run one or more experiments on the same dataset (for instance one experiment per pollutant, or more experiments on the same pollutant by changing the input parameters, etc.). When a new dataset is loaded, the old one is removed.
+
+.. note::
+
+      Please keep in mind that your uploaded dataset will be automatically deleted after 10 days of inactivity.
+      
+
 .. toctree::
    :maxdepth: 3
    
@@ -52,7 +59,7 @@ To upload a dataset in the MQOR format, the user must select, from its local mac
 After the loading
 ^^^^^^^^^^^^^^^^^
 
-As soon as the input files are selected and transferred to the server storage, the Delta Tool Onlina application performs some consistency checks on the uploaded data, trying to detect possible error and inconsistency in the data. In case some inconsistency are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks.
+As soon as the input files are selected and transferred to the server storage, the Delta Tool Online application performs some consistency checks on the uploaded data, trying to detect possible error and inconsistency in the data. In case some inconsistency are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks.
 
 .. figure:: graphics/ConsistencyChecks.png
     
