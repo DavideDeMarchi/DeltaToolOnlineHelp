@@ -12,4 +12,4 @@ Output is available at: https://deltatoolonlinehelp.readthedocs.io/en/latest/ind
 
 Main repository: https://code.europa.eu/jrcairqualitymodelling/delta-tool-online-help
 
-Mirrored repository also to: https://github.com/DavideDeMarchi/DeltaToolOnlineHelp
+Mirrored repository (linked to readthedocs): https://github.com/DavideDeMarchi/DeltaToolOnlineHelp
