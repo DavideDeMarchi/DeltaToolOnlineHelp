@@ -1,9 +1,9 @@
 Assessment computation details
 ==============================
 
-.. _fmm_assess:
+.. _fmmassess:
 
-This part of the user manual describes in detail the underlining **fmm_assess** library (FAIRMODE Modelling-Assessment Evaluation Tool), available as open source at  `fmm_assess repository hosted by code.europa.eu <https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_), that is called by the Delta Tool Online application for calculations and outputs generation.
+This part of the user manual describes in detail the underlying **fmm_assess** library (FAIRMODE Modelling-Assessment Evaluation Tool), available as open source at  `fmm_assess repository hosted by code.europa.eu <https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_), that is called by the Delta Tool Online application for calculations and outputs generation.
 
 .. toctree::
    :maxdepth: 3
