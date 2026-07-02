@@ -8,7 +8,7 @@
 
 project = 'Delta Tool Online'
 copyright = '2026, European Union'
-author = 'Davide De Marchi, Enrico Pisoni'
+author = 'Enrico Pisoni, Davide De Marchi'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
