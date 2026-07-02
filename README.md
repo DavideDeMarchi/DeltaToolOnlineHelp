@@ -8,8 +8,8 @@ Sphinx and restructured text is used for the help contents. See https://www.sphi
 
 Readthedocs is used to deploy the help.
 
-Output is available at: https://deltatoolonlinehelp.readthedocs.io/en/latest/index.html
+Output is available at: https://deltatoolonlinehelp.readthedocs.io
 
 Main repository: https://code.europa.eu/jrcairqualitymodelling/delta-tool-online-help
 
-Mirrored repository (linked to readthedocs): https://github.com/DavideDeMarchi/DeltaToolOnlineHelp
+Mirrored repository (public and linked to readthedocs): https://github.com/DavideDeMarchi/DeltaToolOnlineHelp
