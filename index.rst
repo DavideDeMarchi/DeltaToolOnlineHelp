@@ -6,7 +6,7 @@
 Delta Tool Online documentation
 ===============================
 
-Delta Tool Online provides a graphical user interface to the Python libraries `**fmm_assess**: FAIRMODE Modelling-Assessment Evaluation Tool <https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_ and `**fmf_eval**: FAIRMODE Forecast-Evaluation Tool <https://code.europa.eu/jrcairqualitymodelling/deltatool-forecast>`_, released as open-source on the European Commission platform `code.europa.eu <https://code.europa.eu/>`_
+Delta Tool Online provides a graphical user interface to the Python libraries `fmm_assess: FAIRMODE Modelling-Assessment Evaluation Tool <https://code.europa.eu/jrcairqualitymodelling/deltatool-assessment>`_ and `fmf_eval: FAIRMODE Forecast-Evaluation Tool <https://code.europa.eu/jrcairqualitymodelling/deltatool-forecast>`_, released as open-source on the European Commission platform `code.europa.eu JRC Air Quality Modelling <https://code.europa.eu/jrcairqualitymodelling>`_
 
 Full description of the two libraries is available here: :ref:`fmm_assess` and here: :ref:`fmf_eval`. In order to understand the indicators calculated by the two library, please refer to these sections: :doc:`fmm_assess/INDICATORS.md` and :doc:`fmf_eval/INDICATORS.md`. To fully understand the output plots, see the two detailed guides: :doc:`fmm_assess/PLOTS.md` and :doc:`fmf_eval/PLOTS.md`.
 
@@ -24,6 +24,7 @@ The tool enables to upload users own datasets following the legacy Delta Tool fo
    :maxdepth: 3
    :caption: Contents:
    
+   self
    1_mainpage
    2_assessment
    3_forecasting
