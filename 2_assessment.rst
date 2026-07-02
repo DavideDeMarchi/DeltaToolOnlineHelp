@@ -67,7 +67,7 @@ If the loading is successfull, the dataset display mode is activated, as shown i
    Display of the uploaded dataset
    
 
-To start analysing the content of your dataset and to filter/select the input stations for your experiments, please see :ref:`dataset-summary` where all the available functions (which are common to the assessment and forecasting section of the tool) are listed and explained.
+To start analysing the content of your dataset and to filter/select the input stations for your experiments, please see :ref:`Dataset summary, stations filtering and selection` chapter where all the available functions (which are common to the assessment and forecasting section of the tool) are listed and explained.
 
 
 Run an experiment

@@ -4,7 +4,6 @@ Dataset summary, stations filtering and selection
 .. toctree::
    :maxdepth: 3
 
-.. _dataset-summary:
 
 This section explains how to interact with the dataset display page to analyse the dataset content and to filter and select the input stations for an experiment. The functions available are exactly the same both for assessment and forecasting experiments.
 
