@@ -3,7 +3,6 @@ Forecasting computation details
 
 .. toctree::
    :maxdepth: 3
-   :local:
 
    fmf_eval/CONVENTIONS.md
    fmf_eval/INDICATORS.md

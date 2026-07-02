@@ -3,7 +3,6 @@ Assessment computation details
 
 .. toctree::
    :maxdepth: 3
-   :local:
 
    fmm_assess/CONVENTIONS.md
    fmm_assess/INDICATORS.md

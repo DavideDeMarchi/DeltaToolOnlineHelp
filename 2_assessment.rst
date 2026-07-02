@@ -3,7 +3,6 @@ Assessment
 
 .. toctree::
    :maxdepth: 3
-   :local:
    
 Load your dataset
 -----------------

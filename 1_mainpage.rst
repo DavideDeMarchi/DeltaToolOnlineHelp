@@ -3,7 +3,6 @@ Main page
 
 .. toctree::
    :maxdepth: 3
-   :local:
 
 
 Start page
