@@ -28,6 +28,7 @@ extensions = ['sphinx.ext.autodoc',
               #'sphinxcontrib.bibtex',
               'myst_parser',
               'sphinx.ext.mathjax',
+              'sphinx.ext.autosectionlabel',
 ]
 
 
