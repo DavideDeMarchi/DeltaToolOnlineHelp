@@ -26,4 +26,6 @@ The tool enables to upload users own datasets following the legacy Delta Tool fo
    2_assessment
    3_forecasting
    4_datasets
+   fmm_assess/CONVENTIONS.md
+   
 
