@@ -229,10 +229,22 @@ For a detailed description of each chart's content, please refer to the `Diagram
 Map output
 ^^^^^^^^^^
 
+By clicking the "Display stations map of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
+
+.. image:: graphics/display_map.png
+
+a map windows is opened that allows for geographical display of the stations, with colors defined by each of the calculated indicators:
+
 .. figure:: graphics/AssessmentMap.png
 
    Map visualization of output indicators per station
    
+On the lower-left side of the map, you can select which indicator to visualize. The corresponding color legend is displayed immediately below this selection. Clicking on any station displays its specific indicator value.
 
+.. note::
+
+    For indicators with an acceptance threshold of 1.0 (such as MQI_long, MQI_short, and the temporal or spatial indicators), the map uses a diverging color palette centered at 1.0 that transitions from green to red. For all other indicators, a Viridis palette is used, with color intervals scaled across the range of $\pm 2.0$ standard deviations from the average ($[\text{average} - 2.0 \times \text{std.dev}, \text{average} + 2.0 \times \text{std.dev}]$).
+    
+    
 Compare two experiments
 -----------------------
