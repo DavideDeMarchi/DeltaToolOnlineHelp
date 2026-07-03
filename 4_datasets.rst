@@ -121,15 +121,13 @@ In the lower-left corner of the map, you can toggle between two legends to chang
 
 - Display stations colored by station_type
 
-.. figure:: graphics/legend_by_type.png
+.. image:: graphics/legend_by_type.png
    :width: 45%
    :align: center
 
-   Display stations by applying different colors according to their station_type (backgroiund, industrial, traffic)
-
 - Display stations colored by station_area
 
-.. figure:: graphics/legend_by_area.png
+.. image:: graphics/legend_by_area.png
    :width: 45%
    :align: center
 
