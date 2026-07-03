@@ -50,7 +50,7 @@ The function of the stations toolbar are:
    | .. image:: graphics/dataset_download.png   | Download the curret dataset as a .zip archive          |
    +--------------------------------------------+--------------------------------------------------------+
 
-The button to display the timeseries is active only when there is a non-empty yellow selection (one or more stations selected in yellow by clicking on the stations table or on the stations map). When clicked, it opens an overlapped window that displays the full timeseries of all the (yellow) selected stations, for both observed and mode data.
+The button to display the timeseries is active only when there is a non-empty yellow selection (one or more stations selected in yellow by clicking on the stations table or on the stations map). When clicked, it opens an overlapped window that displays the full timeseries of all the (yellow) selected stations, for both observed and model data.
 
 
 .. figure:: graphics/timeseries.png
@@ -58,17 +58,32 @@ The button to display the timeseries is active only when there is a non-empty ye
    Display of observed and modeled values for two stations
    
 
-Each station is represented with a different color, while the modeled dataset of the same station is represented by a darker version of the same color. By moving the mouse inside the chart, observed and modeled data are displayed.
+Each station is represented with a different color, while the modeled dataset of the same station is represented by a darker version of the same color. By moving the mouse inside the chart, observed and modeled data are displayed for a specific date/time.
 
-By clicking and double-clicking on the chart legend displayed on the top-right side of the chart, it is also possible to hide and show single data series (standard function in Plotly charts).
+By clicking and double-clicking on the chart legend, displayed on the top-right side of the chart, it is also possible to hide and show single data series (standard function in Plotly charts, see `Plotly legends documentation <https://plotly.com/python/legend/>`_).
 
 
 Stations table
 --------------
 
+The following figure displays a table containing the stations with their associated attribute columns. For each column a filter icon is present: if clicked, it allows for station filtering or by choosing individual column values of specific ranges for numerical values). As an example, these filtering icons can easily allow the user to filter all stations of a specific type (for instance only the background stations), or only the stations where a specific pollutat is observed, or even the stations whose altitune on see level is greated that a threshold. The filtering mechanism temporarily removes the stations that do non satisfy the filter. By clicking on the "Reset all stations filters based on table columns" button in the :ref:`Stations toolbar` removes all the filters and restores the full display of all the stations of the dataset.
+
 .. figure:: graphics/stations_table.png
 
    Stations table
+
+The detail in the following picture shows the creation of a filter on the stations type, in preparation of an experiment that will take as input only the background stations of the dataset:
+
+.. figure:: graphics/filter_by_type.png
+
+   Filter the stations to keep only those in background areas
+
+.. note::
+
+   Please note that if more that one filter is inserted, the logical operation used is the **AND**: this means that only the stations that satisfy **all** the filters are kept in the table.
+
+Beside the standard 13 columns present in the startup.ini data format (please note that the 13th optional column can contain the **fixed/indicative** flag at station level, as described in the `startup.ini chapter of <fmm_assess documentation fmm_assess/TECH_SPEC_fmm_assess.html#startup-ini>`_), the dataset loading performs a **spatial join** of the stations points with the **NUTS administrative levels** at european level (NUTS0=country, NUTS1=Macroregions, NUTS3=Regions and NUTS3=Provinces). Scrolling on the right the stations table, the NUTS to which each of the station belongs will be visible on the table. This join is done to allow users to easily filter all the stations that fall inside a specific NUTS for running an experiment on the stations of a restricted geographic area.
+
    
 
 Stations map
