@@ -134,13 +134,26 @@ Display functions
    | .. image:: graphics/display_compare.png     | Compare current experiment with a second one        |
    +---------------------------------------------+-----------------------------------------------------+
    
+   
+In some specific cases, at the right of the top bar, new buttons appear, for instance when the display of the charts is activated (to select the zoom level of the charts display among XS-ExtraSmall, S-Small, M-Medium, L-Large, XL-ExtraLarge), or when the compare function is activated (to select the experiment to compare to the current experiment).
+
 
 Run an experiment
 -----------------
 
+The following figure shows the dialog-box that opens when the user cliks on the "Create new experiment" button on the top bar:
+
 .. figure:: graphics/AssessmentRun.png
 
    Input parameters for running an experiment
+
+This window displays on top the current filtering and selection status of the stations and allows for deciding on which set of stations to run the new experiment: or the filtered stations or the (yellow) selected stations.
+
+The pollutant dropdown enables the selection of the target pollutant. At each change of the selection, the label on the right of the dropdown widget displays the real number of input stations (i.e. the effective number of stations, among the filtered or the selected, which have truly collected the selected pollutant data).
+
+The other widgets of the page enable the user to select all the input parameters for the experiment calculation: short term resolution ('hourly', 'daily' or 'max daily 8hr mean', depending on the selected pollutant), long term resolution ('annual' or 'seasonal', depending on the selected pollutant), measurement type ('fixed' or 'indicative'), uncertainty definition, minimum data capture percentage and minimum number of stations.
+
+After a name of the experiment is inserted, the OK button is activated which enables the start of the computation.
 
 
 Analyse experiment results
