@@ -176,7 +176,7 @@ After a run terminates successfully, the system generates both numerical and gra
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
-By clicking the "Display Experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
+By clicking the "Display numerical outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
 
 .. image:: graphics/display_experiment.png
 
@@ -186,7 +186,7 @@ the main numerical outputs of the currently selected experiment are displayed:
 
    Numerical results of an assessment experiment
 
-The top section of this page summarizes the input parameters selected to start the experiment (reflecting all choices made on the :ref:`Run an experiment:ref:` page). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
+The top section of this page summarizes the input parameters selected to start the experiment (reflecting all the choices made on the :ref:`Run an experiment` page). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
 
 .. image:: graphics/download_buttons.png
 
@@ -198,10 +198,17 @@ Two tabular representations are present in the page. On the top-right side of th
 Charts outputs
 ^^^^^^^^^^^^^^
 
+By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
+
+.. image:: graphics/display_charts.png
+
+the chart outputs of the currently selected experiment are displayed:
+
 .. figure:: graphics/AssessmentCharts.png
 
    Graphical outputs of an assessment experiment
 
+Please refer to the chapter on the fmm_assess documentation `Diagrams chapter <fmm_assess/TECH_SPEC_fmm_assess.html#diagrams-plots>`_ for a detailed description of the content of each chart, and to the `Plots reading guide <fmm_assess/PLOTS.html#plots-reading-guide>`_ for hints on how to understand and analyse the graphical ouputs.
 
 Map output
 ^^^^^^^^^^
