@@ -66,17 +66,26 @@ By clicking and double-clicking on the chart legend, displayed on the top-right 
 Stations table
 --------------
 
-The following figure displays a table containing the stations with their associated attribute columns. For each column a filter icon is present: if clicked, it allows for station filtering or by choosing individual column values of specific ranges for numerical values). As an example, these filtering icons can easily allow the user to filter all stations of a specific type (for instance only the background stations), or only the stations where a specific pollutat is observed, or even the stations whose altitune on see level is greated that a threshold. The filtering mechanism temporarily removes the stations that do non satisfy the filter. By clicking on the "Reset all stations filters based on table columns" button in the :ref:`Stations toolbar` removes all the filters and restores the full display of all the stations of the dataset.
+The following figure displays a table containing the stations with their associated attribute columns:
 
 .. figure:: graphics/stations_table.png
 
    Stations table
 
-The detail in the following picture shows the creation of a filter on the stations type, in preparation of an experiment that will take as input only the background stations of the dataset:
+
+Stations filtering
+^^^^^^^^^^^^^^^^^^
+
+For each column a filter icon is present on the right of the column name: if clicked, it allows for station filtering by choosing individual column values or specific ranges for numerical values). As an example, these filtering icons can easily allow the user to filter all stations of a specific type (for instance only the background stations), or only the stations where a specific pollutant is observed, or even the stations whose altitude above the see level is greated that a threshold. 
+
+The detail in the following figure shows the creation of a filter on the stations type, in preparation of an experiment that will take as input only the background stations of the dataset:
 
 .. figure:: graphics/filter_by_type.png
+   :width: 300px
 
    Filter the stations to keep only those in background areas
+
+The filtering mechanism temporarily removes the stations that do non satisfy the filter. By clicking on the "Reset all stations filters based on table columns" button in the :ref:`Stations toolbar` removes all the filters and restores the full display of all the stations of the dataset.
 
 .. note::
 
@@ -84,7 +93,14 @@ The detail in the following picture shows the creation of a filter on the statio
 
 Beside the standard 13 columns present in the startup.ini data format (please note that the 13th optional column can contain the **fixed/indicative** flag at station level, as described in the `startup.ini chapter of <fmm_assess documentation fmm_assess/TECH_SPEC_fmm_assess.html#startup-ini>`_), the dataset loading performs a **spatial join** of the stations points with the **NUTS administrative levels** at european level (NUTS0=country, NUTS1=Macroregions, NUTS3=Regions and NUTS3=Provinces). Scrolling on the right the stations table, the NUTS to which each of the station belongs will be visible on the table. This join is done to allow users to easily filter all the stations that fall inside a specific NUTS for running an experiment on the stations of a restricted geographic area.
 
-   
+
+Stations (yellow) selection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The (yellow) selection is a second, and distinct, mechanism to subset the stations and can be used both for the timeseries display (as described in the previous :ref:`Stations toolbar` chapter), or as an alternative way to choose stations to give as input to a new experiment (see :ref:`Run an experiment` page for reference on how it is possible to decide if the filtering or the (yellow) selection is used to subset the input stations for an experiment).
+
+By clicking the rows of the Stations Table, the (yellow) selection is activated. Using the "Shift" and "Ctrl" keyboard keys, enables the multiple selection of station rows.
+
 
 Stations map
 ------------
