@@ -50,17 +50,16 @@ The function of the stations toolbar are:
    | .. image:: graphics/dataset_download.png   | Download the curret dataset as a .zip archive          |
    +--------------------------------------------+--------------------------------------------------------+
 
-The button to display the timeseries is active only when there is a non-empty yellow selection (one or more stations selected in yellow by clicking on the stations table or on the stations map). When clicked, it opens an overlapped window that displays the full timeseries of all the (yellow) selected stations, for both observed and model data.
-
+The button to display the timeseries is active only when a "yellow selection" is active (meaning one or more stations have been selected by clicking on the stations table or map). When clicked, it opens an overlay window that displays the full timeseries of both observed and modeled data for all currently selected stations.
 
 .. figure:: graphics/timeseries.png
 
    Display of observed and modeled values for two stations
    
 
-Each station is represented with a different color, while the modeled dataset of the same station is represented by a darker version of the same color. By moving the mouse inside the chart, observed and modeled data are displayed for a specific date/time.
+Each station is assigned a unique color; the observed data is shown in this color, while the corresponding model dataset is displayed in a darker shade of the same color. Hovering the cursor over the chart displays the specific observed and modeled values for that date and time.
 
-By clicking and double-clicking on the chart legend, displayed on the top-right side of the chart, it is also possible to hide and show single data series (standard function in Plotly charts, see `Plotly legends documentation <https://plotly.com/python/legend/>`_).
+Clicking or double-clicking items in the chart legend (located at the top right) allows you to hide or show individual data series. This is a standard feature of Plotly charts (for details, see the `Plotly legends documentation <https://plotly.com/python/legend/>`_).
 
 
 Stations table
@@ -76,9 +75,9 @@ The following figure displays a table containing the stations with their associa
 Stations filtering
 ^^^^^^^^^^^^^^^^^^
 
-For each column of the table, a filter icon is present on the right of the column name: if clicked, it allows for station **filtering** by choosing individual column values or specific ranges for numerical values. As an example, these filtering icons can easily allow the user to filter all stations of a specific type (for instance only the background stations), or only the stations where a specific pollutant is observed, or even the stations whose altitude above the see level is greated that a threshold. 
+Each column in the table features a filter icon to the right of its name. Clicking this icon allows you to filter stations by selecting individual column values or defining specific numeric ranges. For example, you can easily filter the dataset to display only a specific station type (such as background stations), stations measuring a specific pollutant, or stations above a certain altitude threshold.
 
-The detail in the following figure shows the creation of a filter on the stations type, in preparation of an experiment that will take as input only the background stations of the dataset:
+The figure below illustrates how to create a filter by station type, which is useful when preparing an experiment that requires only background stations as input:
 
 .. figure:: graphics/filter_by_type.png
    :width: 400px
@@ -86,21 +85,21 @@ The detail in the following figure shows the creation of a filter on the station
 
    Filter the stations to keep only those in background areas
 
-The filtering mechanism temporarily removes the stations that do non satisfy the filter. By clicking on the "Reset all stations filters based on table columns" button in the :ref:`Stations toolbar` removes all the filters and restores the full display of all the stations of the dataset.
+The filtering mechanism temporarily hides stations that do not satisfy the active criteria. Clicking the "Reset all stations filters based on table columns" button in the :ref:`Stations toolbar` toolbar clears all filters and restores the full dataset display.
 
 .. note::
 
-   Please note that, if more that one filter is inserted, the logical operation used is the **AND**. This means that only the stations that satisfy **all** the filters are kept in the table.
+   Please note that when multiple filters are applied simultaneously, they are combined using a logical **AND** operation. This means only stations that satisfy **all** active filters will remain visible in the table.
 
-Beside the standard 13 columns present in the startup.ini data format (please note that the 13th optional column can contain the **fixed/indicative** flag at station level, as described in the `startup.ini chapter of the fmm_assess documentation <fmm_assess/TECH_SPEC_fmm_assess.html#startup-ini>`_), the dataset loading performs a **spatial join** of the stations points with the **NUTS administrative levels** at european level (NUTS0=country, NUTS1=Macroregions, NUTS3=Regions and NUTS3=Provinces). Scrolling on the right the stations table, the NUTS to which each of the station belongs will be visible on the table. This join is done to allow users to easily filter all the stations that fall inside a specific NUTS for running an experiment on the stations of a restricted geographic area.
+In addition to the standard 13 columns defined in the startup.ini format - note that the optional 13th column can specify a **fixed/indicative** flag at the station level, as described in the `startup.ini chapter of the fmm_assess documentation <fmm_assess/TECH_SPEC_fmm_assess.html#startup-ini>`_ — the system performs a **spatial join** during dataset loading. This joins station locations with European NUTS administrative levels (NUTS0 = country, NUTS1 = macroregion, NUTS2 = region, and NUTS3 = province). Scrolling to the right of the stations table reveals the NUTS regions to which each station belongs. This spatial join enables you to easily filter stations within a specific administrative boundary to run experiments on localized geographic areas.
 
 
 Stations (yellow) selection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The **(yellow) selection** is a second, and distinct, mechanism to subset the stations and can be used both for the timeseries display (as described in the previous :ref:`Stations toolbar` chapter), or as an alternative way to choose stations to give as input to a new experiment (see :ref:`Run an experiment` page for reference on how it is possible to decide if the filtering or the (yellow) selection is used to subset the input stations for an experiment).
+The **(yellow) selection** is a separate, distinct mechanism for subsetting stations. It can be used either to isolate data for the timeseries display (as detailed in the :ref:`Stations toolbar` section) or as an alternative method for choosing input stations for a new experiment (see the :ref:`Run an experiment` page for details on toggling between filtered or selected stations).
 
-By clicking the rows of the Stations Table, the (yellow) selection is activated. Using the **"Shift"** and **"Ctrl"** keyboard keys, enables the multiple selection of station rows. This selection operation is available also on the Stations Map, as described in the following chapter.
+You can **(yellow) select** a station by clicking its row in the Stations Table. Holding the **Shift** or **Ctrl** keys enables multi-row selection. This selection mechanism is also fully integrated with the Stations Map, as described in the next section.
 
 .. figure:: graphics/yellow_selection.png
    :width: 500px
@@ -112,23 +111,29 @@ By clicking the rows of the Stations Table, the (yellow) selection is activated.
 Stations map
 ------------
 
+The visualisation of stations position on the map is deeply linked with the Stations table. Any **filtering** or **(yellow) selection** in the table is reflected on the map, and vice-versa. 
+
 .. figure:: graphics/stations_map.png
 
    Stations map
 
+On the lower-left side of the map, you can select among two legends for stations representation on the map: display stations colored by their station_type:
 
 .. figure:: graphics/legend_by_type.png
-   :width: 75%
+   :width: 45%
    :align: center
 
    Display stations by applying different colors according to their station_type (backgroiund, industrial, traffic)
 
+or display stations colored by their station_area:
 
 .. figure:: graphics/legend_by_area.png
-   :width: 75%
+   :width: 45%
    :align: center
 
    Display stations by applying different colors according to their station_area (urban, suburban, rural)
+
+The multi-selection can be obtained in the map by simply clicking one of the station while having pressed the **Shift** key on the keyboard.
 
 .. figure:: graphics/yellow_selection_map.png
    :width: 500px
