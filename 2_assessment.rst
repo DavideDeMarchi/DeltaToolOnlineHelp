@@ -171,14 +171,18 @@ Once you enter a name for the experiment, the **OK** button becomes active, allo
 Analyse experiment results
 --------------------------
 
+After a run terminates successfully, the system generates both numerical and graphical outputs, as detailed in the `Output section <fmm_assess/TECH_SPEC_fmm_assess.html#outputs>`_, which lists all results produced by the fmm_assess library. To assist with analysis, the Delta Tool Online application provides several visualization and comparison tools, which are described in the following chapters.
 
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
+By clicking the "Display Experiment" button in the top bar, (.. image:: graphics/display_experiment.png), the main numerical outputs of the currently selected experiment are displayed:
+
 .. figure:: graphics/AssessmentNumeric.png
 
    Numerical results of an assessment experiment
-   
+
+In this page, the top part resumes the input parameters selected to start the experiment (all the choiches done in the :ref:`Run an experiment` page).
 
 Charts outputs
 ^^^^^^^^^^^^^^
