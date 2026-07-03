@@ -78,9 +78,9 @@ To start analysing the content of your dataset and to filter/select the input st
 
 
 How to use the top bar toolbar
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
-The buttons on the top bar, displayed in the following figure, allow the user to move through all the available functions.
+The buttons on the top bar, displayed in the following figure, enable the user to activate all the available functions.
 
 .. figure:: graphics/main_toolbar.png
 
@@ -89,8 +89,8 @@ The buttons on the top bar, displayed in the following figure, allow the user to
 
 The buttons are grouped as follows:
 
-Dataset functions:
-""""""""""""""""""
+Dataset functions
+^^^^^^^^^^^^^^^^^
 
    +-----------------------------------------+-----------------------+
    | Icon                                    | Function              |
@@ -101,32 +101,39 @@ Dataset functions:
    +-----------------------------------------+-----------------------+
 
 
-Experiment functions:
-"""""""""""""""""""""
+Experiment functions
+^^^^^^^^^^^^^^^^^^^^
 
-Create a new experiment
-
-Remove current experiment
-
-Remove all your experiments
-
-Select the current experiment from the dropdown list
-
-
-Display functions:
-""""""""""""""""""
-
-Display summary info on the current dataset
-
-Display info on the experiments
-
-Display charts
-
-Display stations map
-
-Compare experiments
+   +--------------------------------------------+-------------------------------+
+   | Icon                                       | Function                      |
+   +============================================+===============================+
+   | .. image:: graphics/experiment_create.png  | Create a new experiment       |
+   +--------------------------------------------+-------------------------------+
+   | .. image:: graphics/experiment_remove.png  | Remove current experiment     |
+   +--------------------------------------------+-------------------------------+
+   | .. image:: graphics/experiment_all.png     | Remove all your experiments   |
+   +--------------------------------------------+-------------------------------+
+   | .. image:: graphics/experiment_select.png  | Select the current experiment |
+   +--------------------------------------------+-------------------------------+
 
 
+Display functions
+^^^^^^^^^^^^^^^^^
+
+   +---------------------------------------------+-----------------------------------------------------+
+   | Icon                                        | Function                                            |
+   +=============================================+=====================================================+
+   | .. image:: graphics/display_dataset.png     | Display summary info on the current dataset         |
+   +---------------------------------------------+-----------------------------------------------------+
+   | .. image:: graphics/display_experiment.png  | Display numerical outputs of the current experiment |
+   +---------------------------------------------+-----------------------------------------------------+
+   | .. image:: graphics/display_charts.png      | Display plot outputs of the current experiment      |
+   +---------------------------------------------+-----------------------------------------------------+
+   | .. image:: graphics/display_map.png         | Display stations map of the current experiment      |
+   +---------------------------------------------+-----------------------------------------------------+
+   | .. image:: graphics/display_compare.png     | Compare current experiment with a second one        |
+   +---------------------------------------------+-----------------------------------------------------+
+   
 
 Run an experiment
 -----------------
