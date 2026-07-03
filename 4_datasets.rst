@@ -102,6 +102,12 @@ The **(yellow) selection** is a second, and distinct, mechanism to subset the st
 
 By clicking the rows of the Stations Table, the (yellow) selection is activated. Using the **"Shift"** and **"Ctrl"** keyboard keys, enables the multiple selection of station rows. This selection operation is available also on the Stations Map, as described in the following chapter.
 
+.. figure:: graphics/yellow_selection.png
+   :width: 500px
+   :align: center
+
+   Yellow selection on the stations table
+
 
 Stations map
 ------------
@@ -112,10 +118,20 @@ Stations map
 
 
 .. figure:: graphics/legend_by_type.png
+   :width: 75%
+   :align: center
 
    Display stations by applying different colors according to their station_type (backgroiund, industrial, traffic)
 
 
 .. figure:: graphics/legend_by_area.png
+   :width: 75%
+   :align: center
 
    Display stations by applying different colors according to their station_area (urban, suburban, rural)
+
+.. figure:: graphics/yellow_selection_map.png
+   :width: 500px
+   :align: center
+
+   Yellow selection on the stations map
