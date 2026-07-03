@@ -14,16 +14,19 @@ Summary panel
 
 .. figure:: graphics/summary_panel.png
    :width: 500px
+   :align: center
 
    Summary panel showing stations type and area info
 
-The top-right section of the "Dataset Summary page" displays info on the loaded dataset content, in terms of storage occupation, also reporting the total, filtered and selected number of stations.
+The top-right section of the "Dataset Summary" page displays information about the loaded dataset's content, including its storage size and the total, filtered, and selected number of stations.
 
 .. note::
 
-   The "Dataset Summary page" allows the user to browse the dataset and to decide on which stations to run his experiments. Users can do this by means of two distinct subsetting mechanism: stations can be **filtered** using their alphanumeric attributes (the columns displayed on the stations table) and/or can be **(yellow) selected** by clicking on the rows of the stations table or on the station points on the map, operations that are better described in the :ref:`Stations table` and in the :ref:`Stations map` sections. In the window that collects parameters for running an experiment, the current number of filtered and (yellow) selected stations is clearly displayed, and the user can decide which subset to use as input for the experiment (see :ref:`Run an experiment` page for reference).
+    The "Dataset Summary" page allows you to browse the dataset and decide which stations to include in your experiments. You can do this using two distinct subsetting mechanisms: stations can be filtered using their alphanumeric attributes (the columns displayed in the stations table), and/or they can be (yellow) selected by clicking on rows in the stations table or on station points on the map. These operations are described in more detail in the :ref:`Stations table` and :ref:`Stations map` sections. The window for configuring experiment parameters clearly displays the current number of filtered and (yellow) selected stations, allowing you to choose which subset to use as the input for your experiment (see the :ref:`Run an experiment` page for reference).
 
-The summary panel also shows the date and time the dataset was loaded and last modified (for instance when an experiment is executed or removed). The two charts below are linked to the stations table and the stations map, and graphically visualise the share of stations by Type (background, industrial, traffic) and by Area (urban, suburban, rural).
+The summary panel also shows the date and time the dataset was loaded and last modified (for example, when an experiment is executed or removed). The two animated pie charts below are linked to the stations table and the stations map; they graphically visualize the distribution of stations by Type (background, industrial, traffic) and by Area (urban, suburban, rural).
+
+Finally, the bottom part of the summary panel displays the number of stations for each pollutant defined in the dataset's **startup.ini** file. Like the pie charts, this section is dynamically updated by the filtering mechanism.
 
 
 Stations toolbar
