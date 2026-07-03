@@ -176,7 +176,7 @@ After a run terminates successfully, the system generates both numerical and gra
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
-By clicking the "Display numerical outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
+By clicking the "Display numerical outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
 .. image:: graphics/display_experiment.png
 
@@ -198,7 +198,7 @@ Two tabular representations are present in the page. On the top-right side of th
 Charts outputs
 ^^^^^^^^^^^^^^
 
-By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
+By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
 .. image:: graphics/display_charts.png
 
@@ -207,6 +207,10 @@ the chart outputs of the currently selected experiment are displayed:
 .. figure:: graphics/AssessmentCharts.png
 
    Graphical outputs of an assessment experiment
+
+All the charts are interactive, meaning that by hovering the mouse on the chart content many additional information are provided. They are also zoomable and downloadable, by using the functions provided by the toobar that appears on the top right side of each of the charts.
+
+It is also possible to change the zoom factor of the charts, by selecting among XS-ExtraSmall, S-Small, M-Medium, L-Large, XL-ExtraLarge on the application top bar.
 
 Please refer to the chapter on the fmm_assess documentation `Diagrams chapter <fmm_assess/TECH_SPEC_fmm_assess.html#diagrams-plots>`_ for a detailed description of the content of each chart, and to the `Plots reading guide <fmm_assess/PLOTS.html#plots-reading-guide>`_ for hints on how to understand and analyse the graphical ouputs.
 
