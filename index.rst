@@ -31,5 +31,3 @@ The tool enables to upload users own datasets following the legacy Delta Tool fo
    4_datasets
    5_fmm_assess
    6_fmf_eval
-
-* :ref:`genindex`
