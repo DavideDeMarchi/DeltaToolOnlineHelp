@@ -9,8 +9,8 @@ Start page
 ----------
 
 .. figure:: graphics/mainpage.png
-   :height: 400px
-   :width:  800px
+   :height: 450px
+   :width:  600px
 
    Main application page
    
