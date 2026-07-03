@@ -176,13 +176,17 @@ After a run terminates successfully, the system generates both numerical and gra
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
-By clicking the "Display Experiment" button in the top bar, (.. image:: graphics/display_experiment.png), the main numerical outputs of the currently selected experiment are displayed:
+By clicking the "Display Experiment" button in the top bar:
+
+.. image:: graphics/display_experiment.png)
+
+the main numerical outputs of the currently selected experiment are displayed:
 
 .. figure:: graphics/AssessmentNumeric.png
 
    Numerical results of an assessment experiment
 
-In this page, the top part resumes the input parameters selected to start the experiment (all the choiches done in the :ref:`Run an experiment` page).
+The top section of this page summarizes the input parameters selected to start the experiment (reflecting all choices made on the :ref:`Run an experiment` page). Directly below, the main indicators are displayed using a graphical layout, with red and green color coding to represent the success or failure of their respective thresholds.
 
 Charts outputs
 ^^^^^^^^^^^^^^
