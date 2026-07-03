@@ -176,10 +176,9 @@ After a run terminates successfully, the system generates both numerical and gra
 Numerical results
 ^^^^^^^^^^^^^^^^^
 
-By clicking the "Display Experiment" button in the top bar:
+By clicking the "Display Experiment" button in the Display section of the top bar (see :ref:`Display functions:ref:`):
 
 .. image:: graphics/display_experiment.png
-   :align: center
 
 the main numerical outputs of the currently selected experiment are displayed:
 
@@ -187,12 +186,11 @@ the main numerical outputs of the currently selected experiment are displayed:
 
    Numerical results of an assessment experiment
 
-The top section of this page summarizes the input parameters selected to start the experiment (reflecting all choices made on the :ref:`Run an experiment` page). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
+The top section of this page summarizes the input parameters selected to start the experiment (reflecting all choices made on the :ref:`Run an experiment:ref:` page). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
 
 .. image:: graphics/download_buttons.png
-   :align: center
 
-Directly below the top of the screen, the main indicators are displayed using a graphical layout, with red and green color coding to represent the success or failure of their respective thresholds.
+Directly below the top of the screen, the main indicators are displayed using a graphical layout, with red and green color coding to represent the success or failure of their respective thresholds, together with the temporal coherence summary (see  `Temporal-coherence MPIs (3x3 grid) <fmm_assess/INDICATORS.html#temporal-coherence-mpis-3x3-grid>`_).
 
 Two tabular representations are present in the page. On the top-right side of the page, the log messages collected from the fmm_asses library execution are displayed, allowing for detailed check of the correct execution of the calculations (stations exclusions and other log messages will be presented in this table). The lower part of the screen shows the full table of the indicators calculated for each of the input stations.
 
@@ -202,7 +200,7 @@ Charts outputs
 
 .. figure:: graphics/AssessmentCharts.png
 
-   Graphical results of an assessment experiment
+   Graphical outputs of an assessment experiment
 
 
 Map output
