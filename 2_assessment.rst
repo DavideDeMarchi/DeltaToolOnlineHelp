@@ -92,19 +92,13 @@ The buttons are grouped as follows:
 Dataset functions:
 """"""""""""""""""
 
-.. subfigure:: AB
-   :layout-sm: A|B
-   :gap: 8px
-   :subcaptions: below
-   :name: dataset_functions
-
-   .. image:: graphics/dataset_load.png
-      :alt: Load a dataset
-
-   .. image:: graphics/dataset_remove.png
-      :alt: Remove your dataset
-
-    Dataset functions
+   +-----------------------------------------+-----------------------+
+   | Icon                                    | Function              |
+   +=========================================+=======================+
+   | .. image:: graphics/dataset_load.png    | Load a dataset        |
+   +-----------------------------------------+-----------------------+
+   | .. image:: graphics/dataset_remove.png  | Remove your dataset   |
+   +-----------------------------------------+-----------------------+
 
 
 Experiment functions:

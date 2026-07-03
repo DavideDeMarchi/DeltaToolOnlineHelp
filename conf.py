@@ -29,7 +29,6 @@ extensions = ['sphinx.ext.autodoc',
               'myst_parser',
               'sphinx.ext.mathjax',
               'sphinx.ext.autosectionlabel',
-              'sphinx_subfigure',
 ]
 
 
