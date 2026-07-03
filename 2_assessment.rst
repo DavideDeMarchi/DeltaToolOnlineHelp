@@ -249,37 +249,37 @@ On the lower-left side of the map, you can select which indicator to visualize. 
 Compare two experiments
 -----------------------
 
-When more than one experiment has been calculated, the "Compare current experiment with a second one" button becomes clickable on the top application bar:
+When more than one experiment has been calculated, the "Compare current experiment with a second one" button becomes active on the application's top bar.
 
 .. image:: graphics/display_compare.png
 
-When clicked, the right part of the top bar enables the selection of the experiment to compare to the currently selected one, and the window content allows for the selection of which component of the output results of the two experiments must be compared side by side.
+Clicking this button reveals a selection menu on the right side of the top bar, allowing you to choose which experiment to compare against the currently active one. The main window then updates to let you select which specific output component of the two experiments to compare side by side.
 
-It is possible to select for comparison:
+The following components are available for comparison:
 
-- Input parameters: to list the parameters selected for running the experiments
+- **Input parameters**: displays a side-by-side list of the parameters used to run each experiment.
 
-- Main indicators: the main numerical indicators are displayed
+- **Main indicators**: shows the primary numerical indicators for both experiments.
 
-- Temporal coherence summary: the 3x3 coherence matrix is displayed
+- **Temporal coherence summary**: displays the 3x3 coherence matrix comparison.
 
-- Radar plot
+- **Radar plot**
 
-- Target plot
+- **Target plot**
 
-- Taylor plot
+- **Taylor plot**
 
-- Bars plot
+- **Bars plot**
 
-- Scatter plot
+- **Scatter plot**
 
-- Scatter dyneval plot
+- **Scatter dyneval plot**
 
-- TS report
+- **TS report**
 
-- Stations Map: the stations are displayed in two maps placed next to each other and linked at each zoom and pan
+- **Stations Map**: displays the stations on two adjacent maps whose zoom and pan actions are synchronized.
 
-In the following pictures some examples of the comparisons of the main indicators, the scatter plot and stations map, respectively:
+The figures below show examples of comparisons for the main indicators, the scatter plot, and the stations map, respectively:
 
 .. figure:: graphics/assessment_compare1.png
 
@@ -288,7 +288,7 @@ In the following pictures some examples of the comparisons of the main indicator
 
 .. figure:: graphics/assessment_compare2.png
 
-   Comparisong of the scatter charts
+   Comparison of the scatter charts
 
 
 .. figure:: graphics/assessment_compare3.png
