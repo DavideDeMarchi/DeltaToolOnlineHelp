@@ -243,8 +243,55 @@ On the lower-left side of the map, you can select which indicator to visualize. 
 
 .. note::
 
-    For indicators with an acceptance threshold of 1.0 (such as MQI_long, MQI_short, and the temporal or spatial indicators), the map uses a diverging color palette centered at 1.0 that transitions from green to red. For all other indicators, a Viridis palette is used, with color intervals scaled across the range of $\pm 2.0$ standard deviations from the average ($[\text{average} - 2.0 \times \text{std.dev}, \text{average} + 2.0 \times \text{std.dev}]$).
+    For indicators with an acceptance threshold of 1.0 (such as MQI_long, MQI_short, and the temporal or spatial indicators), the map uses a diverging color palette centered at 1.0 that transitions from green to red. For all other indicators, a Viridis palette is used, with color intervals scaled across the range from -2 to +2 standard deviations from the average ([average - 2*std.dev, average + 2*std.dev]).
     
     
 Compare two experiments
 -----------------------
+
+When more than one experiment has been calculated, the "Compare current experiment with a second one" button becomes clickable on the top application bar:
+
+.. image:: graphics/display_compare.png
+
+When clicked, the right part of the top bar enables the selection of the experiment to compare to the currently selected one, and the window content allows for the selection of which component of the output results of the two experiments must be compared side by side.
+
+It is possible to select for comparison:
+
+- Input parameters: to list the parameters selected for running the experiments
+
+- Main indicators: the main numerical indicators are displayed
+
+- Temporal coherence summary: the 3x3 coherence matrix is displayed
+
+- Radar plot
+
+- Target plot
+
+- Taylor plot
+
+- Bars plot
+
+- Scatter plot
+
+- Scatter dyneval plot
+
+- TS report
+
+- Stations Map: the stations are displayed in two maps placed next to each other and linked at each zoom and pan
+
+In the following pictures some examples of the comparisons of the main indicators, the scatter plot and stations map, respectively:
+
+.. figure:: graphics/assessment_compare1.png
+
+   Comparisong of the main indicators
+
+
+.. figure:: graphics/assessment_compare2.png
+
+   Comparisong of the scatter charts
+
+
+.. figure:: graphics/assessment_compare3.png
+
+   Comparison of the stations map
+
