@@ -81,7 +81,7 @@ For each column a filter icon is present on the right of the column name: if cli
 The detail in the following figure shows the creation of a filter on the stations type, in preparation of an experiment that will take as input only the background stations of the dataset:
 
 .. figure:: graphics/filter_by_type.png
-   :width: 300px
+   :width: 200px
 
    Filter the stations to keep only those in background areas
 
@@ -99,7 +99,7 @@ Stations (yellow) selection
 
 The (yellow) selection is a second, and distinct, mechanism to subset the stations and can be used both for the timeseries display (as described in the previous :ref:`Stations toolbar` chapter), or as an alternative way to choose stations to give as input to a new experiment (see :ref:`Run an experiment` page for reference on how it is possible to decide if the filtering or the (yellow) selection is used to subset the input stations for an experiment).
 
-By clicking the rows of the Stations Table, the (yellow) selection is activated. Using the "Shift" and "Ctrl" keyboard keys, enables the multiple selection of station rows.
+By clicking the rows of the Stations Table, the (yellow) selection is activated. Using the "Shift" and "Ctrl" keyboard keys, enables the multiple selection of station rows. This selection operation is available also on the Stations Map, as described in the following chapter.
 
 
 Stations map
