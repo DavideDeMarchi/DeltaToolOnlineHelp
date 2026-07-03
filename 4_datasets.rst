@@ -119,21 +119,22 @@ The visualization of station positions on the map is dynamically linked to the S
 
 In the lower-left corner of the map, you can toggle between two legends to change how stations are represented:
 
-- Display stations colored by station_type
+- Display stations colored by station_type:
 
 .. image:: graphics/legend_by_type.png
    :width: 45%
    :align: center
 
-- Display stations colored by station_area
+
+- Display stations colored by station_area:
+
 
 .. image:: graphics/legend_by_area.png
    :width: 45%
    :align: center
 
-   Display stations by applying different colors according to their station_area (urban, suburban, rural)
 
-To select multiple stations directly on the map, simply hold down the **Shift*+ key on your keyboard while clicking on the stations.
+To select multiple stations directly on the map, simply hold down the **Shift** key on your keyboard while clicking on the stations.
 
 .. figure:: graphics/yellow_selection_map.png
    :width: 500px
