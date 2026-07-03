@@ -71,8 +71,8 @@ html_show_sourcelink = False
 
 html_theme_options = {
     'logo_only': True,
-    "collapse_navigation": False,
-    "navigation_depth": 4,
+    #"collapse_navigation": False,
+    #"navigation_depth": 4,
 }
 
 html_logo = 'graphics/LogoBordato.png'
