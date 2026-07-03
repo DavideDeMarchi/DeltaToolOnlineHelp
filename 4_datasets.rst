@@ -111,13 +111,15 @@ You can **(yellow) select** a station by clicking its row in the Stations Table.
 Stations map
 ------------
 
-The visualisation of stations position on the map is deeply linked with the Stations table. Any **filtering** or **(yellow) selection** in the table is reflected on the map, and vice-versa. 
+The visualization of station positions on the map is dynamically linked to the Stations table. Any **filtering** or **(yellow) selection** applied in the table is immediately reflected on the map, and vice versa. You can change the background map by clicking the buttons on the lower-right side of the map to select from the "Gisco", "Esri", or "Google" basemaps.
 
 .. figure:: graphics/stations_map.png
 
    Stations map
 
-On the lower-left side of the map, you can select among two legends for stations representation on the map: display stations colored by their station_type:
+In the lower-left corner of the map, you can toggle between two legends to change how stations are represented:
+
+- Display stations colored by station_type
 
 .. figure:: graphics/legend_by_type.png
    :width: 45%
@@ -125,7 +127,7 @@ On the lower-left side of the map, you can select among two legends for stations
 
    Display stations by applying different colors according to their station_type (backgroiund, industrial, traffic)
 
-or display stations colored by their station_area:
+- Display stations colored by station_area
 
 .. figure:: graphics/legend_by_area.png
    :width: 45%
@@ -133,7 +135,7 @@ or display stations colored by their station_area:
 
    Display stations by applying different colors according to their station_area (urban, suburban, rural)
 
-The multi-selection can be obtained in the map by simply clicking one of the station while having pressed the **Shift** key on the keyboard.
+To select multiple stations directly on the map, simply hold down the **Shift*+ key on your keyboard while clicking on the stations.
 
 .. figure:: graphics/yellow_selection_map.png
    :width: 500px
