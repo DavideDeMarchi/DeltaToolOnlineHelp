@@ -19,6 +19,7 @@ Start page
 To start the **assessment** tool click on the left button:
 
 .. figure:: graphics/assessment_start.png
+   :width: 50%
    :align: center
 
    Start button of the Assessment tool
@@ -28,6 +29,7 @@ To start the **assessment** tool click on the left button:
 To start the **forecasting** tool click on the right button:
 
 .. figure:: graphics/forecasting_start.png
+   :width: 50%
    :align: center
 
    Start button of the Forecasting tool

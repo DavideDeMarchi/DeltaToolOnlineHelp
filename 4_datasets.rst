@@ -117,7 +117,9 @@ The visualization of station positions on the map is dynamically linked to the S
 
    Stations map
 
+
 In the lower-left corner of the map, you can toggle between two legends to change how stations are represented:
+
 
 - Display stations colored by station_type:
 
