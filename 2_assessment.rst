@@ -59,13 +59,22 @@ To upload a dataset in the MQOR format, the user must select, from its local mac
 After the loading
 ^^^^^^^^^^^^^^^^^
 
-As soon as the input files are selected and transferred to the server storage, the Delta Tool Online application performs some consistency checks on the uploaded data, trying to detect possible errors and inconsistencies in the data. In case some inconsistencies are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks.
-s
+As soon as the input files are selected and transferred to the server storage, the Delta Tool Online application performs some consistency checks on the uploaded data, trying to detect possible errors and inconsistencies in the data.
+
 .. figure:: graphics/ConsistencyChecks.png
-    
 
    Consistency checks on the uploaded dataset
-   
+
+In case some inconsistencies are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks. Typical inconsistencies are:
+
+- syntax errors detected in the startup.ini file
+
+- errors in CSV naming (CSV files should be named 'Station Code'.csv or 'Station Name'.csv)
+
+- missing columns on CSV files (occurring when a pollutant is listed for a station in the startup.ini file, but the correspondant column is not present in the observations or in the model data)
+
+- presence of additional files in the observations or model archives, not linked to stations listed in the startup.ini file
+
 
 If the loading is successfull, the dataset display mode is activated, as shown in the following figure:
 
@@ -166,6 +175,8 @@ The remaining widgets on the page allow you to configure the rest of the experim
 - **Minimum number of stations**
 
 Once you enter a name for the experiment, the **OK** button becomes active, allowing you to start the calculation. At this point the underlying fmm_assess Python library is called and in few minutes, depending on the number of input stations, the results will be produced.
+
+In case the calculation generates errors, the full log is displayed in an overlapping window, otherwise the display of the numerical outputs of the experiment is activated.
 
 
 Analyse experiment results
