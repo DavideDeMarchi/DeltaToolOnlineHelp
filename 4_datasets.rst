@@ -43,12 +43,24 @@ The function of the stations toolbar are:
    +============================================+========================================================+
    | .. image:: graphics/filter_reset.png       | Reset all stations filters based on table columns      |
    +--------------------------------------------+--------------------------------------------------------+
-   | .. image:: graphics/selection_reset.png    | Reset station (yellow) selection                       |
+   | .. image:: graphics/selection_reset.png    | Reset stations (yellow) selection                      |
    +--------------------------------------------+--------------------------------------------------------+
    | .. image:: graphics/timeseries_display.png | Display timeseries of the (yellow) selected stations   |
    +--------------------------------------------+--------------------------------------------------------+
    | .. image:: graphics/dataset_download.png   | Download the curret dataset as a .zip archive          |
    +--------------------------------------------+--------------------------------------------------------+
+
+The button to display the timeseries is active only when there is a non-empty yellow selection (one or more stations selected in yellow by clicking on the stations table or on the stations map). When clicked, it opens an overlapped window that displays the full timeseries of all the (yellow) selected stations, for both observed and mode data.
+
+
+.. figure:: graphics/timeseries.png
+
+   Display of observed and modeled values for two stations
+   
+
+Each station is represented with a different color, while the modeled dataset of the same station is represented by a darker version of the same color. By moving the mouse inside the chart, observed and modeled data are displayed.
+
+By clicking and double-clicking on the chart legend displayed on the top-right side of the chart, it is also possible to hide and show single data series (standard function in Plotly charts).
 
 
 Stations table
