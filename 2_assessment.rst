@@ -5,7 +5,7 @@ Users can upload a single dataset into the tool server storage. Once a dataset i
 
 .. note::
 
-      Please keep in mind that your uploaded dataset will be automatically deleted after 10 days of inactivity.
+      Please keep in mind that your uploaded dataset will be automatically deleted after ten (10) days of inactivity. Delta Tool Online should not be considered as a long term storage system: keep you stations data safely stored in your local storage, upload them to the tool, run your experiments and download the results as tables and charts.
       
 
 .. toctree::
@@ -75,6 +75,63 @@ If the loading is successfull, the dataset display mode is activated, as shown i
    
 
 To start analysing the content of your dataset and to filter/select the input stations for your experiments, please see :ref:`Dataset summary, stations filtering and selection` chapter where all the available functions (which are common to the assessment and forecasting section of the tool) are listed and explained.
+
+
+How to use the top bar toolbar
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The buttons on the top bar, displayed in the following figure, allow the user to move through all the available functions.
+
+.. figure:: graphics/main_toolbar.png
+
+   Buttons of the top bar
+   
+
+The buttons are grouped as follows:
+
+Dataset functions:
+""""""""""""""""""
+
+.. subfigure:: AB
+   :layout-sm: A|B
+   :gap: 8px
+   :subcaptions: below
+   :name: dataset_functions
+
+   .. image:: graphics/dataset_load.png
+      :alt: Load a dataset
+
+   .. image:: graphics/dataset_remove.png
+      :alt: Remove your dataset
+
+    Dataset functions
+
+
+Experiment functions:
+"""""""""""""""""""""
+
+Create a new experiment
+
+Remove current experiment
+
+Remove all your experiments
+
+Select the current experiment from the dropdown list
+
+
+Display functions:
+""""""""""""""""""
+
+Display summary info on the current dataset
+
+Display info on the experiments
+
+Display charts
+
+Display stations map
+
+Compare experiments
+
 
 
 Run an experiment
