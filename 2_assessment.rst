@@ -34,7 +34,7 @@ The simplest way to start using the Delta Tool Online is to click the "Load samp
 Load a dataset in the Delta Tool legacy format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To upload a dataset in the Delta Tool legacy format, the user must select, from its local machine, the startup.ini file and two .zip archives: one containing one CSV for each station for the observation data, and the second containing one CSV for each station for the model data. 
+To upload a dataset in the Delta Tool legacy format, the user must select, from its local machine, the startup.ini file and two .zip archives: the first containing one CSV for each station for the observation data, and the second containing one CSV for each station for the model data. 
 
 .. note::
 
@@ -59,8 +59,8 @@ To upload a dataset in the MQOR format, the user must select, from its local mac
 After the loading
 ^^^^^^^^^^^^^^^^^
 
-As soon as the input files are selected and transferred to the server storage, the Delta Tool Online application performs some consistency checks on the uploaded data, trying to detect possible error and inconsistency in the data. In case some inconsistency are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks.
-
+As soon as the input files are selected and transferred to the server storage, the Delta Tool Online application performs some consistency checks on the uploaded data, trying to detect possible errors and inconsistencies in the data. In case some inconsistencies are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks.
+s
 .. figure:: graphics/ConsistencyChecks.png
     
 
@@ -147,13 +147,25 @@ The following figure shows the dialog-box that opens when the user cliks on the 
 
    Input parameters for running an experiment
 
-This window displays on top the current filtering and selection status of the stations and allows for deciding on which set of stations to run the new experiment: or the filtered stations or the (yellow) selected stations.
+The top of this window displays the current filtering and selection status of the stations. It allows you to choose which set of stations to use for the new experiment: either the **filtered stations** or the **(yellow) selected stations**. Directly to the right of this selection toggle, you can click the map icon to open a map view, allowing you to verify the exact list of stations included in the experiment.
 
-The pollutant dropdown enables the selection of the target pollutant. At each change of the selection, the label on the right of the dropdown widget displays the real number of input stations (i.e. the effective number of stations, among the filtered or the selected, which have truly collected the selected pollutant data).
+The **Pollutant** dropdown allows you to select the target pollutant. Whenever you change this selection, the label to the right updates to show the actual number of input stations (i.e., the effective number of filtered or selected stations that have valid data for the chosen pollutant).
 
-The other widgets of the page enable the user to select all the input parameters for the experiment calculation: short term resolution ('hourly', 'daily' or 'max daily 8hr mean', depending on the selected pollutant), long term resolution ('annual' or 'seasonal', depending on the selected pollutant), measurement type ('fixed' or 'indicative'), uncertainty definition, minimum data capture percentage and minimum number of stations.
+The remaining widgets on the page allow you to configure the rest of the experiment's input parameters:
 
-After a name of the experiment is inserted, the OK button is activated which enables the start of the computation.
+- **Short-term resolution**: hourly, daily, or max daily 8hr mean (depending on the chosen pollutant)
+
+- **Long-term resolution**: annual or seasonal (depending on the chosen pollutant)
+
+- **Measurement type**: fixed or indicative
+
+- **Uncertainty definition**: at the moment, only aaqd is available
+
+- **Minimum data capture percentage**
+
+- **Minimum number of stations**
+
+Once you enter a name for the experiment, the **OK** button becomes active, allowing you to start the calculation. At this point the underlying fmm_assess Python library is called and in few minutes, depending on the number of input stations, the results will be produced.
 
 
 Analyse experiment results
