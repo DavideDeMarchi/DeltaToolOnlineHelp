@@ -285,7 +285,7 @@ The figures below show examples of comparisons for the main indicators, the scat
 
 .. figure:: graphics/assessment_compare1.png
 
-   Comparisong of the main indicators
+   Comparison of the main indicators
 
 
 .. figure:: graphics/assessment_compare2.png
