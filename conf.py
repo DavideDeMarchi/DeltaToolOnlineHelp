@@ -47,7 +47,6 @@ myst_enable_extensions = ["dollarmath", "amsmath"]
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 
-
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
@@ -72,6 +71,8 @@ html_show_sourcelink = False
 
 html_theme_options = {
     'logo_only': True,
+    "collapse_navigation": False,
+    "navigation_depth": 4,
 }
 
 html_logo = 'graphics/LogoBordato.png'
