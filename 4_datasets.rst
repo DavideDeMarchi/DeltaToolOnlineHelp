@@ -127,14 +127,17 @@ In the lower-left corner of the map, you can toggle between two legends to chang
    :width: 45%
    :align: center
 
+|
+|
 
 - Display stations colored by station_area:
-
 
 .. image:: graphics/legend_by_area.png
    :width: 45%
    :align: center
 
+|
+|
 
 To select multiple stations directly on the map, simply hold down the **Shift** key on your keyboard while clicking on the stations.
 
