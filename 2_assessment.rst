@@ -253,15 +253,16 @@ When more than one experiment has been calculated, the "Compare current experime
 
 .. image:: graphics/display_compare.png
 
+
 Clicking this button reveals a selection menu on the right side of the top bar, allowing you to choose which experiment to compare against the currently active one. The main window then updates to let you select which specific output component of the two experiments to compare side by side.
 
 The following components are available for comparison:
 
-- **Input parameters**: displays a side-by-side list of the parameters used to run each experiment.
+- **Input parameters**: displays a side-by-side list of the parameters used to run each experiment
 
-- **Main indicators**: shows the primary numerical indicators for both experiments.
+- **Main indicators**: shows the primary numerical indicators for both experiments
 
-- **Temporal coherence summary**: displays the 3x3 coherence matrix comparison.
+- **Temporal coherence summary**: displays the 3x3 coherence matrix comparison
 
 - **Radar plot**
 
@@ -277,9 +278,10 @@ The following components are available for comparison:
 
 - **TS report**
 
-- **Stations Map**: displays the stations on two adjacent maps whose zoom and pan actions are synchronized.
+- **Stations Map**: displays the stations on two adjacent maps whose zoom and pan actions are synchronized
 
 The figures below show examples of comparisons for the main indicators, the scatter plot, and the stations map, respectively:
+
 
 .. figure:: graphics/assessment_compare1.png
 
