@@ -65,7 +65,7 @@ As soon as the input files are selected and transferred to the server storage, t
 
    Consistency checks on the uploaded dataset
 
-In case some inconsistencies are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activate at the end of the checks. Typical inconsistencies are:
+In case some inconsistencies are detected, they are shown to the user in a dedicated window, otherwise the loaded dataset display is activated at the end of the checks. Typical inconsistencies are:
 
 - syntax errors detected in the startup.ini file
 
