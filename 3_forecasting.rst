@@ -187,21 +187,22 @@ Numerical results
 
 By clicking the "Display numerical outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
-.. image:: graphics/display_experiment.png
+.. image:: graphics/forecast_display_experiment.png
 
 the main numerical outputs of the currently selected experiment are displayed:
 
-.. figure:: graphics/AssessmentNumeric.png
+.. figure:: graphics/ForecastingNumeric.png
 
    Numerical results of an assessment experiment
 
-The top section of this page summarizes the input parameters selected to start the experiment (reflecting all the choices made on the :ref:`Run an experiment` page). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
+The top section of this page summarizes the input parameters selected to start the experiment (reflecting all the choices made on the :ref:`Run a forecast experiment` window). Immediately to the right, three buttons allow for the download of the experiment result, respectively: download all the tabular outputs, download all the charts images, download both tabular and chart outputs:
 
 .. image:: graphics/download_buttons.png
 
-Directly below the top of the screen, the main indicators are displayed using a graphical layout, with red and green color coding to represent the success or failure of their respective thresholds, together with the temporal coherence summary (see  `Temporal-coherence MPIs (3x3 grid) <fmm_assess/INDICATORS.html#temporal-coherence-mpis-3x3-grid>`_).
+Directly below the top of the screen, the main indicators are displayed using a graphical layout, with red and green color coding to represent the success or failure of their respective thresholds, together with a graphical representation of the share of stations
+with MQIf ≤ 1 and the share of stations with both MPI1 ≤ 1 and MPI2 ≤ 1.
 
-Two tabular representations are present in the page. On the top-right side of the page, the log messages collected from the fmm_asses library execution are displayed, allowing for detailed check of the correct execution of the calculations (stations exclusions and other log messages will be presented in this table). The lower part of the screen shows the full table of the indicators calculated for each of the input stations.
+Three tabular representations are present in the page. On the top-right side of the page, the log messages collected from the fmm_asses library execution are displayed, allowing for detailed check of the correct execution of the calculations (stations exclusions and other log messages will be presented in this table). In the top-center position, the categories per stations are listed, according to the AQI scheme selected in the :ref:`Run a forecast experiment` window. The lower part of the screen shows the full table of the indicators calculated for each of the input stations.
 
 
 Charts outputs
