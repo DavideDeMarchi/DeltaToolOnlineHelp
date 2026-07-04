@@ -231,7 +231,7 @@ Map output
 
 By clicking the "Display stations map of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
-.. image:: graphics/display_map.png
+.. image:: graphics/forecast_display_map.png
 
 a map windows is opened that allows for geographical display of the stations, with colors defined by each of the calculated indicators:
 
