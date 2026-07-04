@@ -158,6 +158,13 @@ The following figure shows the dialog-box that opens when the user cliks on the 
 
 The top of this window displays the current filtering and selection status of the stations. It allows you to choose which set of stations to use for the new experiment: either the **filtered stations** or the **(yellow) selected stations**. Directly to the right of this selection toggle, you can click the map icon to open a map view, allowing you to verify the exact list of stations included in the experiment.
 
+.. image:: graphics/map_view_input.png
+
+.. figure:: graphics/input_stations_map.png
+
+   Map view of the input stations for the experiment
+
+
 The **Pollutant** dropdown allows you to select the target pollutant. Whenever you change this selection, the label to the right updates to show the actual number of input stations (i.e., the effective number of filtered or selected stations that have valid data for the chosen pollutant).
 
 The remaining widgets on the page allow you to configure the rest of the experiment's input parameters:
@@ -211,11 +218,11 @@ Charts outputs
 
 By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
-.. image:: graphics/display_charts.png
+.. image:: graphics/forecast_display_charts.png
 
 the chart outputs of the currently selected experiment are displayed:
 
-.. figure:: graphics/AssessmentCharts.png
+.. figure:: graphics/ForecastingCharts.png
 
    Graphical outputs of an assessment experiment
 
@@ -223,7 +230,7 @@ All charts are interactive; hovering the cursor over the chart content displays 
 
 Additionally, you can adjust the overall display size of the charts by selecting a zoom factor, XS (Extra Small), S (Small), M (Medium), L (Large), or XL (Extra Large), from the application's top bar.
 
-For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmm_assess/TECH_SPEC_fmm_assess.html#diagrams-plots>`_ in the fmm_assess documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmm_assess/PLOTS.html#plots-reading-guide>`_.
+For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmf_eval/TECH_SPEC.html#diagrams-plots>`_ in the fmf_eval documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmf_eval/PLOTS.html#plots-reading-guide>`_.
 
 
 Map output

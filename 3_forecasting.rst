@@ -148,6 +148,7 @@ The following figure shows the dialog-box that opens when the user cliks on the 
 
 The top of this window displays the current filtering and selection status of the stations. It allows you to choose which set of stations to use for the new experiment: either the **filtered stations** or the **(yellow) selected stations**. Directly to the right of this selection toggle, you can click the map icon to open a map view, allowing you to verify the exact list of stations included in the experiment.
 
+.. image:: graphics/map_view_input.png
 
 .. figure:: graphics/input_stations_map.png
 
