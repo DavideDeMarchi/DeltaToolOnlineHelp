@@ -54,10 +54,17 @@ The button to display the timeseries is active only when a "yellow selection" is
 
 .. figure:: graphics/timeseries.png
 
-   Display of observed and modeled values for two stations
+   Display of observed and modeled values for two stations (assessment tool)
+
+
+When the same function is activated on the forecasting tool, the timeseries window allows also for the selection of the forecasting horizon (0, 1, 2 can be multi-selected and displayed on the chart):
+
+.. figure:: graphics/timeseries_forecast.png
+
+   Display of observed and modeled values for two stations (forecasting tool)
    
 
-Each station is assigned a unique color; the observed data is shown in this color, while the corresponding model dataset is displayed in a darker shade of the same color. Hovering the cursor over the chart displays the specific observed and modeled values for that date and time.
+In both cases, each station is assigned a unique color; the observed data is shown in this color, while the corresponding model datasets are displayed in darker shades of the same color. Hovering the cursor over the chart displays the specific observed and modeled values for that date and time.
 
 Clicking or double-clicking items in the chart legend (located at the top right) allows you to hide or show individual data series. This is a standard feature of Plotly charts (for details, see the `Plotly legends documentation <https://plotly.com/python/legend/>`_).
 
