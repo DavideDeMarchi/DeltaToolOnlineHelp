@@ -218,11 +218,11 @@ Charts outputs
 
 By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
-.. image:: graphics/forecast_display_charts.png
+.. image:: graphics/display_charts.png
 
 the chart outputs of the currently selected experiment are displayed:
 
-.. figure:: graphics/ForecastingCharts.png
+.. figure:: graphics/AssessmentCharts.png
 
    Graphical outputs of an assessment experiment
 
@@ -230,7 +230,7 @@ All charts are interactive; hovering the cursor over the chart content displays 
 
 Additionally, you can adjust the overall display size of the charts by selecting a zoom factor, XS (Extra Small), S (Small), M (Medium), L (Large), or XL (Extra Large), from the application's top bar.
 
-For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmf_eval/TECH_SPEC.html#diagrams-plots>`_ in the fmf_eval documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmf_eval/PLOTS.html#plots-reading-guide>`_.
+For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmm_assess/TECH_SPEC_fmm_assess.html#diagrams-plots>`_ in the fmm_assess documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmm_assess/PLOTS.html#plots-reading-guide>`_.
 
 
 Map output

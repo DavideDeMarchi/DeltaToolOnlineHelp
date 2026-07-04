@@ -211,11 +211,11 @@ Charts outputs
 
 By clicking the "Display plot outputs of the current experiment" button in the Display section of the top bar (see :ref:`Display functions`):
 
-.. image:: graphics/display_charts.png
+.. image:: graphics/forecast_display_charts.png
 
 the chart outputs of the currently selected experiment are displayed:
 
-.. figure:: graphics/AssessmentCharts.png
+.. figure:: graphics/ForecastingCharts.png
 
    Graphical outputs of an assessment experiment
 
@@ -223,7 +223,7 @@ All charts are interactive; hovering the cursor over the chart content displays 
 
 Additionally, you can adjust the overall display size of the charts by selecting a zoom factor, XS (Extra Small), S (Small), M (Medium), L (Large), or XL (Extra Large), from the application's top bar.
 
-For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmm_assess/TECH_SPEC_fmm_assess.html#diagrams-plots>`_ in the fmm_assess documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmm_assess/PLOTS.html#plots-reading-guide>`_.
+For a detailed description of each chart's content, please refer to the `Diagrams chapter <fmf_eval/TECH_SPEC.html#diagrams-plots>`_ in the fmf_eval documentation. For tips on how to interpret and analyse the graphical outputs, see the `Plots reading guide <fmf_eval/PLOTS.html#plots-reading-guide>`_.
 
 
 Map output
@@ -235,7 +235,7 @@ By clicking the "Display stations map of the current experiment" button in the D
 
 a map windows is opened that allows for geographical display of the stations, with colors defined by each of the calculated indicators:
 
-.. figure:: graphics/AssessmentMap.png
+.. figure:: graphics/ForecastingMap.png
 
    Map visualization of output indicators per station
    
@@ -243,7 +243,7 @@ On the lower-left side of the map, you can select which indicator to visualize. 
 
 .. note::
 
-    For indicators with an acceptance threshold of 1.0 (such as MQI_long, MQI_short, and the temporal or spatial indicators), the map uses a diverging color palette centered at 1.0 that transitions from green to red. For all other indicators, a Viridis palette is used, with color intervals scaled across the range from -2 to +2 standard deviations from the average ([average - 2*std.dev, average + 2*std.dev]).
+    For indicators with an acceptance threshold of 1.0 (such as MQIf, MPI1 and MPI2), the map uses a diverging color palette centered at 1.0 that transitions from green to red. For all other indicators, a Viridis palette is used, with color intervals scaled across the range from -2 to +2 standard deviations from the average ([average - 2*std.dev, average + 2*std.dev]).
     
     
 Compare two experiments
@@ -251,7 +251,7 @@ Compare two experiments
 
 When more than one experiment has been calculated, the "Compare current experiment with a second one" button becomes active on the application's top bar.
 
-.. image:: graphics/display_compare.png
+.. image:: graphics/forecast_display_compare.png
 
 
 Clicking this button reveals a selection menu on the right side of the top bar, allowing you to choose which experiment to compare against the currently active one. The main window then updates to let you select which specific output component of the two experiments to compare side by side.
@@ -262,38 +262,38 @@ The following components are available for comparison:
 
 - **Main indicators**: shows the primary numerical indicators for both experiments
 
-- **Temporal coherence summary**: displays the 3x3 coherence matrix comparison
+- **Forecast Target Plot**
 
-- **Radar plot**
+- **Forecast Threshold Performance**
 
-- **Target plot**
+- **Forecast MPI Plot**
 
-- **Taylor plot**
+- **Forecast Threshold Normalized Performance**
 
-- **Bars plot**
+- **Forecast Summary Report**
 
-- **Scatter plot**
+- **Forecast Summary P-Normalized Report**
 
-- **Scatter dyneval plot**
+- **Forecast AQI**
 
-- **TS report**
-
+- **POD & SR sensitivity**
+                   
 - **Stations Map**: displays the stations on two adjacent maps whose zoom and pan actions are synchronized
 
 The figures below show examples of comparisons for the main indicators, the scatter plot, and the stations map, respectively:
 
 
-.. figure:: graphics/assessment_compare1.png
+.. figure:: graphics/forecast_compare1.png
 
    Comparison of the main indicators
 
 
-.. figure:: graphics/assessment_compare2.png
+.. figure:: graphics/forecast_compare2.png
 
-   Comparison of the scatter charts
+   Comparison of the Forecast Summary P-Normalized Report
 
 
-.. figure:: graphics/assessment_compare3.png
+.. figure:: graphics/forecast_compare3.png
 
    Comparison of the stations map
 
