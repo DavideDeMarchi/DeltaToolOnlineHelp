@@ -137,34 +137,42 @@ Display functions
 In some specific cases, at the right of the top bar, new buttons appear, for instance when the display of the charts is activated (to select the zoom level of the charts display among XS-ExtraSmall, S-Small, M-Medium, L-Large, XL-ExtraLarge), or when the compare function is activated (to select the experiment to compare to the current experiment).
 
 
-Run an experiment
------------------
+Run a forecast experiment
+-------------------------
 
 The following figure shows the dialog-box that opens when the user cliks on the "Create new experiment" button on the top bar:
 
-.. figure:: graphics/AssessmentRun.png
+.. figure:: graphics/ForecastingRun.png
 
    Input parameters for running an experiment
 
 The top of this window displays the current filtering and selection status of the stations. It allows you to choose which set of stations to use for the new experiment: either the **filtered stations** or the **(yellow) selected stations**. Directly to the right of this selection toggle, you can click the map icon to open a map view, allowing you to verify the exact list of stations included in the experiment.
 
+
+.. figure:: graphics/input_stations_map.png
+
+   Map view of the input stations for the experiment
+
+
 The **Pollutant** dropdown allows you to select the target pollutant. Whenever you change this selection, the label to the right updates to show the actual number of input stations (i.e., the effective number of filtered or selected stations that have valid data for the chosen pollutant).
 
 The remaining widgets on the page allow you to configure the rest of the experiment's input parameters:
 
-- **Short-term resolution**: hourly, daily, or max daily 8hr mean (depending on the chosen pollutant)
+- **Forecasting Horizons**: selection among 0, 0-1 or 0-1-2 for the forecasting horizons to compute
 
-- **Long-term resolution**: annual or seasonal (depending on the chosen pollutant)
+- **Threshold**: categorical exceedance threshold (µg/m³)
 
-- **Measurement type**: fixed or indicative
+- **Th. sensitivity**: threshold sensitivity ±1 µg/m³ for sensitivity plot
 
-- **Uncertainty definition**: at the moment, only aaqd is available
+- **AQI scheme**: one of EEA_AQI, UK4_AQI, UK10_AQI, USEPA_AQI
+
+- **Uncertainty definition**: aaqd or fairmode
 
 - **Minimum data capture percentage**
 
 - **Minimum number of stations**
 
-Once you enter a name for the experiment, the **OK** button becomes active, allowing you to start the calculation. At this point the underlying fmm_assess Python library is called and in few minutes, depending on the number of input stations, the results will be produced.
+Once you enter a name for the experiment, the **OK** button becomes active, allowing you to start the calculation. At this point the underlying fmf_eval Python library is called and in few minutes, depending on the number of input stations, the results will be produced.
 
 In case the calculation generates errors, the full log is displayed in an overlapping window, otherwise the display of the numerical outputs of the experiment is activated.
 
@@ -172,7 +180,7 @@ In case the calculation generates errors, the full log is displayed in an overla
 Analyse experiment results
 --------------------------
 
-After a run terminates successfully, the system generates both numerical and graphical outputs, as detailed in the `Output section <fmm_assess/TECH_SPEC_fmm_assess.html#outputs>`_, which lists all results produced by the fmm_assess library. To assist with analysis, the Delta Tool Online application provides several visualization and comparison tools, which are described in the following chapters.
+After a run terminates successfully, the system generates both numerical and graphical outputs, as detailed in the `Output section <fmf_eval/TECH_SPEC.html#outputs>`_, which lists all results produced by the fmf_eval library. To assist with analysis, the Delta Tool Online application provides several visualization and comparison tools, which are described in the following chapters.
 
 Numerical results
 ^^^^^^^^^^^^^^^^^
