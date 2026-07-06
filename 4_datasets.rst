@@ -144,7 +144,7 @@ In the lower-left corner of the map, you can toggle between two legends to chang
 
 |
 
-To select multiple stations directly on the map, simply hold down the **Shift** key on your keyboard while clicking on the stations.
+To select multiple stations directly on the map, simply hold down the **Ctrl** key on your keyboard while clicking on the stations.
 
 .. figure:: graphics/yellow_selection_map.png
    :width: 500px
