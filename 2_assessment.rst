@@ -1,6 +1,9 @@
 Assessment
 ==========
 
+FAIRMODE's DeltaTool-Assessment is a Python tool for evaluating air-quality model results against monitoring observations using the FAIRMODE Modelling Quality Objective (MQO) framework. Its core purpose is to answer a regulatory question: is a model good enough to be used for air-quality assessment under the Ambient Air Quality Directive?
+To do this it computes, per pollutant and station network, the Modelling Quality Indicator (MQI) — which compares the model–observation difference against a benchmark built from the measurement uncertainty — for both short-term and long-term (annual) metrics, together with the supporting Target Indicators (bias, correlation, standard deviation in time) and Spatial Indicators (the same, but across the annual-mean field over stations). A model "passes" when its 90th-percentile MQI across stations stays at or below 1. The tool is a porting of the Delta-Tool-Light, with elements also from the MQOR.
+
 Users can upload a single dataset into the tool server storage. Once a dataset is loaded, they can run one or more experiments on the same dataset (for instance one experiment per pollutant, or more experiments on the same pollutant by changing the input parameters, etc.). When a new dataset is loaded, the old one is removed.
 
 .. important::

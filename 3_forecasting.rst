@@ -1,6 +1,10 @@
 Forecasting
 ===========
 
+FAIRMODE DeltaTool-forecast is a Python implementation of the FAIRMODE DeltaTool forecast-evaluation workflow, used to assess the quality of air-quality forecasts against monitoring observations. It computes the FAIRMODE forecast indicators — the forecast Modelling Quality Indicator (MQIf) and the Modelling Performance Indicators (MPI1, MPI2), together with the underlying statistics (BIAS, RMSE, CRMSE) and threshold-exceedance skill scores (SR, POD, FBIAS, TS, GSS) — on a per-station basis for NO2, O3, PM10 and PM2.5, and produces the corresponding Summary Report, Target Plot, MPI and threshold-performance diagrams. 
+
+Performance is benchmarked against a persistence forecast, so the indicators express whether a model adds skill beyond the persistent model. The tool is a porting of the Delta-Tool.
+
 Users can upload a single dataset into the tool server storage. Once a dataset is loaded, they can run one or more experiments on the same dataset (for instance one experiment per pollutant, or more experiments on the same pollutant by changing the input parameters, etc.). When a new dataset is loaded, the old one is removed.
 
 .. important::
