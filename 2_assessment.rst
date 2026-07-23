@@ -243,13 +243,13 @@ By clicking the "Display stations map of the current experiment" button in the D
 
 .. image:: graphics/display_map.png
 
-a map windows is opened that allows for geographical display of the stations, with colors defined by each of the calculated indicators:
+a map windows is opened that allows for geographical display of the stations, with colors defined by each of the calculated indicators and the symbol defined by the station type (a **circle** for the background stations, a **square** for the industrial stations and a **triangle** for the traffic stations):
 
 .. figure:: graphics/AssessmentMap.png
 
    Map visualization of output indicators per station
    
-On the lower-left side of the map, you can select which indicator to visualize. The corresponding color legend is displayed immediately below this selection. Clicking on any station displays its specific indicator value.
+On the lower-left side of the map, you can select which indicator to visualize. The corresponding color legend is displayed immediately below this selection. It is also possible to hide one or more station types by clicking on the corresponding checkboxes just below the legend. Clicking on any station on the map, displays its specific indicator value.
 
 .. note::
 
